@@ -1,0 +1,41 @@
+.Comment{
+    border: 0.25ex #42f548 solid;
+    border-radius: 1ex;
+    margin-bottom: 1ex;
+    background-color: #efefef;
+    color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.Left-section {
+    width: 15%;
+}
+
+.Right-section {
+    position: relative;
+    width: 80%;
+}
+
+.CommentBodyWithVideo {
+    flex-direction: row;
+    display: flex;
+}
+
+.LeftVideo {
+    width: 30%;
+}
+.RightVideo {
+    width: 65%;
+}
+
+.Comment-body {
+    text-align: left;
+    margin: 1ex;
+    font-size: 1.2ex;
+}
+
+.VideoSection {
+    height: 100%;
+}

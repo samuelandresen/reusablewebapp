@@ -1,0 +1,96 @@
+.Home {
+  text-align: center;
+  font-size: 100%;
+}
+
+.Home-logo {
+  height: 25vmin;
+  pointer-events: none;
+  margin-top: 5vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Home-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.Home-header {
+  background-color: #282c34;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-right: "80px";
+  overflow: hidden;
+
+}
+
+.Home-link {
+  color: #61dafb;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.HomeContainer {
+  text-align: fixed;
+  left: 5ex;
+  height: 100%;
+  position: relative;
+  min-height: 60vh;
+}
+
+.Home-redirects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+}
+
+.Home-btn {
+  border-radius: 1.5ex;
+  width: 25%;
+  min-height: 20vh;
+  margin: 2%;
+  font-size: 100%;
+  border: 0.25ex #0af solid;
+}
+
+.Login-btn {
+  border-radius: 1.5ex;
+  width: 25%;
+  margin: 2%;
+  font-size: 100%;
+  border: 0.25ex #0af solid;
+
+}
+
+button {
+  border-radius: 1ex;
+}
+
+.LoggedIn {
+  font-size: 100%;
+}
+
+.HomeLogOut {
+  border: 0.25ex #0af solid;
+  width: 20%;
+  font-size: 100%;
+}
+
+.AppTitle {
+  font-size: 3ex;
+  margin: 2%;
+}
+button:hover {
+  background-color: #A7A7A7;
+}

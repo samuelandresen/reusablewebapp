@@ -1,0 +1,48 @@
+.Feed {
+  text-align: center;
+}
+
+.Feed-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Feed-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.Feed-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-right: "80px";
+}
+
+.Feed-link {
+  color: #61dafb;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Forum {
+  text-align: fixed;
+  left: 5ex;
+  position: relative;
+}
+
+
+
+
+

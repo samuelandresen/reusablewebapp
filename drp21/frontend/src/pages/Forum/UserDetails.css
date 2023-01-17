@@ -1,0 +1,12 @@
+.ProfilePicture {
+    height: 8ex;
+    width: auto;
+    margin: 0.5ex;
+}
+
+.Username {
+    margin-top: 0;
+    margin-left: 0.5ex;
+    font-size: 1.2ex;
+    font-weight: 500;
+}

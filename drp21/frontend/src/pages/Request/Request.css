@@ -1,0 +1,66 @@
+.Request {
+    text-align: center;
+    width: 23%;
+    min-height: max-content;
+    position: relative;
+    padding-bottom: 10ex;
+    border-width: 0.3ex;
+    border-radius: 2ex;
+    border-style: solid;
+    background-color: #efefef;
+    margin: 0% 0.5% 0% 0.5%;
+}
+
+.DefaultRequestPicture {
+    width: 90%;
+    margin: 0.5ex;
+    height: auto;
+}
+
+.Title {
+    text-align: center;
+    width: 100%;
+    margin: 1% 1% 0% 1%;
+    font-size: 1.5ex;
+    font-weight: 1000;
+    color: #000;
+}
+
+.Description {
+    padding: 0 0.5ex 0;
+    font-size: 1ex;
+    font-weight: 400;
+    border-bottom: ivory;
+    border-width: 1.5%;
+    color: #000;
+}
+
+.TimeRemaining {
+    margin: 0;
+    font-size: 1.1ex;
+    font-weight: 500;
+}
+
+.CharityRequest {
+    margin: 0;
+    font-size: 1.1ex;
+    font-weight: 700;
+}
+
+.CharityLogo {
+  height: 5ex;
+  width: auto;
+}
+
+.MessageOwner {
+    font-size: 100%;
+    font-weight: 500;
+} 
+
+#bottom {
+    position: absolute;
+    margin: 0;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+}

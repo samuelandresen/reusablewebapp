@@ -1,0 +1,77 @@
+ .CreatePost {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1ex;
+    margin: 1ex 1ex 1ex 1ex;
+}
+
+.CategorySelection {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+}
+
+.CategoryHeading {
+    font-size: 150%;
+}
+
+.PostBody {
+    width: 70%;
+    margin: 0 2ex 0 2ex;
+    display: flex;
+    flex-direction: column;
+}
+
+.PostTitle {
+    overflow-wrap: break-word;
+    height: 30%;
+    margin-bottom: 1ex;
+    font-size: 110%;
+}
+
+.PostText {
+    overflow-wrap: break-word;
+    height: 70%;
+    font-size: 110%;
+}
+    
+.SubmitButton {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+}
+
+.PostButton {
+    height: 70%;
+    margin-bottom: 10%;
+    font-size: 150%;
+}
+
+.CancelPost {
+    height: 20%;
+    position: relative;
+    bottom: 0;
+    font-size: 70%;
+}
+
+.Login {
+  position: relative;
+  display: flex;
+  margin: 2ex;
+}
+
+.LoginText {
+  width: 70%;
+  margin: 0;
+}
+
+.Return {
+  margin-top: 0.5ex;
+  height: 30%;
+  width: 20%;
+  position: relative;
+  font-size: 70%;
+}

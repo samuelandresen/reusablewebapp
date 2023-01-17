@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component matches the snapshot 1`] = `
+Array [
+  <div
+    className="NavBar"
+  >
+    <p>
+      <a
+        className="NavBarLink"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="NavBarLink"
+        href="/market"
+        onClick={[Function]}
+      >
+        Marketplace
+      </a>
+      <a
+        className="NavBarLink"
+        href="/requests"
+        onClick={[Function]}
+      >
+        Requests
+      </a>
+      <a
+        className="NavBarLink"
+        href="/feed"
+        onClick={[Function]}
+      >
+        Repair Forum
+      </a>
+      <div
+        className="UserSection"
+      >
+        <button
+          className="LogoutBtn"
+          onClick={[Function]}
+        >
+          Login
+        </button>
+      </div>
+    </p>
+  </div>,
+  <div
+    className="Home"
+  >
+    <header
+      className="Home-header"
+    >
+      <div
+        className="HomeContainer"
+        style={
+          Object {
+            "width": "90%",
+          }
+        }
+      >
+        <img
+          alt="logo"
+          className="Home-logo"
+          src="recycle-logo.png"
+        />
+        <h3
+          className="AppTitle"
+        >
+          eCycling
+        </h3>
+        <div
+          className="Home-redirects"
+        >
+          <button
+            className="Home-btn"
+            onClick={[Function]}
+          >
+            Give or get devices
+          </button>
+          <button
+            className="Home-btn"
+            onClick={[Function]}
+          >
+            Request some devices
+          </button>
+          <button
+            className="Home-btn"
+            onClick={[Function]}
+          >
+            Need help repairing
+          </button>
+        </div>
+        <button
+          className="Login-btn btn"
+          onClick={[Function]}
+        >
+          Login
+        </button>
+      </div>
+    </header>
+  </div>,
+]
+`;
